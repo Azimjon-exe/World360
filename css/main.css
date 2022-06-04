@@ -109,6 +109,28 @@ border-radius: 5px;
 .all>.search>form>input:focus{
     outline: none;
 }
+/* Profil all */
+.all>.me{
+    padding: 20px 30px;
+    display: flex;
+    vertical-align: middle;
+    
+}
+.all>.me>.imgme{
+    vertical-align: middle;
+}
+.all>.me>.nameme{
+    padding: 20px 0 0 30px;
+    vertical-align: middle;
+}
+.all>.me>.imgme>img{
+    border-radius: 100%;
+}
+.all>.me>.nameme>h2{
+    text-decoration: underline;
+    color: white;
+}
+
 /* We all */
 .all>.aboutwe{
     background-color: rgba(94, 94, 94, 0.63);
@@ -165,7 +187,8 @@ border-radius: 5px;
     text-decoration: none;
     padding: 10px;
 }
-.navitem>a>i{
+.navitem>a>i,p{
+    font-size: 17px;
     color: rgb(95, 95, 95);
 }
 .navitem>a>.active{
