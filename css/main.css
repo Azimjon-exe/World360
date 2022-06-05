@@ -130,6 +130,22 @@ border-radius: 5px;
     text-decoration: underline;
     color: white;
 }
+.all>.infop{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 10px 20px;
+}
+.all>.infop>h3{
+    padding: 10px 20px;
+    display: inline-block;
+}
+.all>.infop>.editp{
+    padding: 10px 20px;
+    color: rgb(0, 140, 255);
+    font-size: 17px;
+    display: block;
+    text-align: right;
+}
 
 /* We all */
 .all>.aboutwe{
